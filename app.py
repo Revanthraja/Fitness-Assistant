@@ -1,16 +1,9 @@
 import os
 import re
 import streamlit as st
-from dotenv import load_dotenv
 import google.generativeai as genai
 
 # Load environment variables
-load_dotenv()
-
-# Configure the Gemini API with the API key
-api_key = os.getenv('GOOGLE_API_KEY')
-if api_key:
-    genai.configure(api_key=api_key)
 
 # Define action regex pattern
 action_re = re.compile(r'^Action: (\w+): (.*)$')
