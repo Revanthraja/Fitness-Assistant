@@ -12,7 +12,7 @@ The **Fitness Assistant** is a Streamlit web application that helps users with w
 - [Streamlit](https://streamlit.io/): For building the web application.
 - [Google Gemini API](https://cloud.google.com/generative-ai/docs): To generate personalized fitness content.
 - [Python](https://www.python.org/): Programming language used for development.
-
+ check our website https://fitness-assistant.streamlit.app/
 ## Getting Started
 
 ### Prerequisites
